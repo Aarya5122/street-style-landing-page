@@ -1,0 +1,160 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-justify-space-around{
+    justify-content: space-around;
+}
+
+.flex-justify-space-between{
+    justify-content: space-between;
+}
+
+.flex-justify-end{
+    justify-content: end;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.button{
+    font-size: 20px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.button-outline{
+    border: 3px solid #0b0c0e;
+    padding: 4px 40px;
+    margin: 0px 20px;
+    background-color: #ffffff;
+}
+
+.color-grey{
+    color: #5f5f5f;
+}
+
+.navbar-container{
+    padding: 5vh 0vw 7vh 0vw;
+    font-weight: 500;
+
+}
+
+nav>div:first-child{
+    width: 20vw;
+}
+
+.list{
+    width: 41vw;
+}
+
+.list-item{
+    list-style: none;
+}
+
+.list-item:first-child{
+    font-weight: 900;
+    padding-bottom: 2px;
+    border-bottom: 3.5px solid #0b0c0e;
+}
+
+.button-group{
+    width: 27vw;
+}
+
+.nav-button{
+    font-family: "Poppins";
+}
+
+.square, .star, .globe, .small-star{
+    position: absolute;
+}
+
+.square{
+    top: 52.5vh;
+    left: 15.3vw;
+    z-index: -1;
+}
+
+.square-pattern{
+    width: 300px;
+}
+
+.globe{
+    top: 7.2vw;
+    left: 52vw;
+}
+
+.star{
+    top: 20vh;
+    left: 87.5vw;
+}
+
+.small-star{
+    top: 84vh;
+    left: 46vw;
+}
+
+.image-container{
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.hero-container-right{
+    width: 55vw;
+    height: 53.5vh;
+    margin-top: 10vh; 
+}
+
+.hero-heading{
+    font-size: 57px;
+}
+
+.hero-description{
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: "Poppins";
+    padding-top: 6.5vh;
+    width: 42vw;
+}
+
+.hero-button-container{
+    padding: 9.6vh 0vw;
+    width: 28vw;
+}
+
+.button-join{
+    background: #0b0c0e;
+    color: #ffffff;
+    padding: 4px;
+}
+
+.contact-container{
+    width: 20vw;
+    
+}
+
+.contact-heading {
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.icons{
+    width: 15vw;
+    padding: 3vh 0vw;
+}
+
+.icon-image{
+    width: 32px;
+}
