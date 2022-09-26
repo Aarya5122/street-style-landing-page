@@ -19,7 +19,7 @@ This is a landing page for a street client created using HTML5 and CSS3 which he
 
 ## Meta data about project
 
-**Site Type:** -Static-
+**Site Type**: *Static*
 
 **Responsive:** ❌
 
